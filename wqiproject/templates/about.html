@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Water Data</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        .table-container {
+            width: 90%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table th {
+            background: #007bff;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even){
+            background: #f9f9f9;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+    </style>
+
+</head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<body>
+
+<h2>Recommended Standards for Drinking Water</h2>
+
+<div class="table-container">
+
+
+    <table>
+        <tr>
+            <th>parameter</th>
+            <th>ideal range(safe)</th>
+            <th>Acceptable Upper Limit</th>
+            <th>unsafe for drinking</th>
+        </tr>
+
+        <tr>
+            <td>pH</td>
+            <td>6.5-8.5</td>
+            <td>6.5-8.5</td>
+            <td><6.5 and or >8.5</td>
+        </tr>
+           <tr>
+            <td>TDS</td>
+            <td><300 mg/L</td>
+            <td>500 mg/L</td>
+            <td>>500 mg/L</td>
+        </tr>
+           <tr>
+            <td>Turbidity</td>
+            <td><1 NTU</td>
+            <td>5 NTU</td>
+            <td>>5 NTU</td>
+            
+        </tr>
+           <tr>
+            <td>Hatrdness</td>
+            <td>< 75 mg/L(soft)></td>
+            <td>300 mg/L</td>
+            <td>>300 mg/L</td>
+        </tr>
+    </table>
+
+ 
+<h2>TDS rating table</h2>
+
+<div class="table-container">
+
+ 
+    <table>
+        <tr>
+            <th>TDS (mg/L)</th>
+            <th>Quality Rating</th>
+            <th>Safety Meaning</th>
+        </tr>
+
+        <tr>
+            <td><300></td>
+            <td>Excellent</td>
+            <td>Very safe</td>
+        </tr>
+           <tr>
+            <td>300-500</td>
+            <td>Good</td>
+            <td>Acceptable</td>
+        </tr>
+           <tr>
+            <td>500-1000</td>
+            <td>poor</td>
+            <td>Not recommended</td>
+
+            
+        </tr>
+           <tr>
+            <td>>1000</td>
+            <td>Very poor</td>
+            <td>Unsafe; high mineral content</td>
+        </tr>
+    </table>
+
+    
+<h2>Turbidity Rating Table</h2>
+
+<div class="table-container">
+
+ 
+    <table>
+        <tr>
+            <th>Turbidity (NTU)</th>
+            <th>Quality Rating</th>
+            <th>Safety Meaning</th>
+        </tr>
+
+        <tr>
+            <td><1</td>
+            <td>Excellent</td>
+            <td>Very clear water</td>
+        </tr>
+           <tr>
+            <td>1-5</td>
+            <td>Good</td>
+            <td>Safe but slightly cloudy</td>
+        </tr>
+           <tr>
+            <td>5-10</td>
+            <td>poor</td>
+            <td>Unsafe; may contain microbes</td>
+
+            
+        </tr>
+           <tr>
+            <td>>10</td>
+            <td>Very poor</td>
+            <td>Not safe at all</td>
+        </tr>
+    </table>
+
+
+<h2>Hardness Rating Table</h2>
+
+<div class="table-container">
+
+ 
+    <table>
+        <tr>
+            <th>Hardness (mg/L)</th>
+            <th>Category</th>
+            <th>Safety Meaning</th>
+        </tr>
+
+        <tr>
+            <td><75</td>
+            <td>Soft</td>
+            <td>Very safe</td>
+        </tr>
+           <tr>
+            <td>75-150</td>
+            <td>Moderately Hard</td>
+            <td>Acceptable</td>
+        </tr>
+           <tr>
+            <td>150-300</td>
+            <td>Hard</td>
+            <td>Not harmful but causes scaling</td>
+
+            
+        </tr>
+           <tr>
+            <td>>300</td>
+            <td>Very Hard</td>
+            <td>Poor; not good for drinking</td>
+        </tr>
+    </table>
+    
+<h2>Turbidity Rating Table</h2>
+
+<div class="table-container">
+
+ 
+    <table>
+        <tr>
+            <th>Turbidity (NTU)</th>
+            <th>Quality Rating</th>
+            <th>Safety Meaning</th>
+        </tr>
+
+        <tr>
+            <td><1</td>
+            <td>Excellent</td>
+            <td>Very clear water</td>
+        </tr>
+           <tr>
+            <td>1-5</td>
+            <td>Good</td>
+            <td>Safe but slightly cloudy</td>
+        </tr>
+           <tr>
+            <td>5-10</td>
+            <td>poor</td>
+            <td>Unsafe; may contain microbes</td>
+
+            
+        </tr>
+           <tr>
+            <td>>10</td>
+            <td>Very poor</td>
+            <td>Not safe at all</td>
+        </tr>
+    </table>
+
+
+<h2>Overall WQI Classification</h2>
+
+<div class="table-container">
+
+ 
+    <table>
+        <tr>
+            <th>WQI Range</th>
+            <th>Water Quality Type</th>
+            <th>Safety</th>
+        </tr>
+
+        <tr>
+            <td>0-25</td>
+            <td>Excellent</td>
+            <td>Completely safe</td>
+        </tr>
+           <tr>
+            <td>26-50</td>
+            <td>Good</td>
+            <td>Safe to drink</td>
+        </tr>
+           <tr>
+            <td>51-75</td>
+            <td>Poor</td>
+            <td>Needs treatment</td>
+
+            
+        </tr>
+           <tr>
+            <td>76-100</td>
+            <td>Very Poor</td>
+            <td>Unsafe without treatment</td>
+        </tr>
+         </tr>
+           <tr>
+            <td>>100</td>
+            <td>Unsuitable</td>
+            <td>Not for drinking</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
